@@ -6,5 +6,6 @@ module.exports = {
   mongoURI: process.env.MONGO_URI,
   stripePublishableKey: process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY,
   stripeSecretKey: process.env.REACT_APP_STRIPE_SECRET_KEY,
-  sendgridKey: process.env.SEND_GRID_KEY
+  sendgridKey: process.env.SENDGRID_KEY,
+  sendgridFromEmail: process.env.SENDGRID_FROM_EMAIL
 }
